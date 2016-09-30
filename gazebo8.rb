@@ -4,7 +4,7 @@ class Gazebo8 < Formula
   url "https://bitbucket.org/osrf/gazebo/get/17137a79cbe8.tar.gz"
   version "8.0.0-20160718-17137a79cbe8"
   sha256 "1831faca6d30d03c4584cbba107b214000767b8b2b1a9a91b67e122608f91871"
-  revision 1
+  formula_revision 1
 
   head "https://bitbucket.org/osrf/gazebo", branch: "default", using: :hg
 
