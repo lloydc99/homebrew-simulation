@@ -7,7 +7,8 @@ class Simbody < Formula
   revision 1
 
   bottle do
-    root_url "http://gazebosim.org/distributions/simbody/releases"
+    root_url "https://dl.bintray.com/lloydc99/bottles-simulation/"
+    sha256 "3459e2d878f5481c98416c670fc8abb8fed923fd4c193633fd2dffab5fe0ecef" => :sierra
     sha256 "e37ea67010f856dbe63b52a8136ad468c3d3dc48eead2ee3e7227abdbb55dd19" => :el_capitan
     sha256 "374b70963d6d5336eccaa83427a1acf0c938b97b618a10a7c1181fdcf06f1c09" => :yosemite
   end
