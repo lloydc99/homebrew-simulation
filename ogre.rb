@@ -9,7 +9,8 @@ class Ogre < Formula
   head "https://bitbucket.org/sinbad/ogre", :branch => "v1-9", :using => :hg
 
   bottle do
-    root_url "http://gazebosim.org/distributions/ogre/releases"
+    root_url "https://dl.bintray.com/lloydc99/bottles-simulation/"
+    sha256 "21fe1a7f45b6ee81695f6de18efb575ddf99256127605b9cce8ad42d558c1f86" => :sierra
     sha256 "b105346d5c3c2277e8aec29b46b75c2a4fb126a1083fdad4066546e91f45dc5d" => :el_capitan
     sha256 "f6bba68b219a011fddebc61a9199cec4b077d90d3729569c1c32bbcf36edb55b" => :yosemite
   end

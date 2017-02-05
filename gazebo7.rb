@@ -9,7 +9,8 @@ class Gazebo7 < Formula
   head "https://bitbucket.org/osrf/gazebo", :branch => "gazebo7", :using => :hg
 
   bottle do
-    root_url "http://gazebosim.org/distributions/gazebo/releases"
+    root_url "https://dl.bintray.com/lloydc99/bottles-simulation/"
+    sha256 "09c2b2095472dd1988d54f5d08e0a5035b096c128a80902c39edac7eb3638689" => :sierra
     sha256 "faa76768c5fc008efaa68facd0dddd72ecd0585a523d25c5975365770891bf0d" => :el_capitan
     sha256 "ccafb3c57926f8391a00a4fc493d79ae50754edd009c816d1820dac0ebbc3208" => :yosemite
   end
